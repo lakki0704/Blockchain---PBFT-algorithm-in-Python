@@ -22,9 +22,4 @@ This is a very basic implementation of PBFT. In practical applications, complex 
 
 Then we make modification in conventional pbft by clustering nodes on the basis of their distances. Now all the nodes do not participate in the consensus. The nodes are divided into groups and each group has a leader. PBFT is implemented in the cluster and a decision is taken on the basis of the decision taken by majority of the clusters.
 
-![WhatsApp Image 2022-12-29 at 11 43 12](https://user-images.githubusercontent.com/78313062/209911957-cb3d4d31-1626-40de-8e30-fc6030916e48.jpeg)
-This is conventional form 
-
-
-![WhatsApp Image 2022-12-29 at 11 43 12 (1)](https://user-images.githubusercontent.com/78313062/209911989-3eb42df1-57ac-4a52-acfa-985f4e2aeb2f.jpeg)
-This is clustered form 
+And then a machine learning model is used to optimise the number of clusters needs to achieve the consensus with minimum number of commits
